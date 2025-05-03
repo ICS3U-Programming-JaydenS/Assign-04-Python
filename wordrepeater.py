@@ -5,7 +5,11 @@
 
 
 def main():
+    print("Welcome to Jayden's Word Repeater!")
+    print("")
+
     while True:
+
         # Get the user input
         user_word_as_string = input("What is your word? ")
         user_length_as_string = input(
@@ -23,7 +27,6 @@ def main():
                 print("")
                 print("Subword length must be between 0 and the length of your word!")
                 print("")
-
             elif user_copies_as_int < 0:
                 print("")
                 print("Number of copies must be positive!")
@@ -31,8 +34,10 @@ def main():
             else:
                 break
 
-        except ValueError:
+        except Exception:
+            print("")
             print("Please enter positive numbers for the length and copies!")
+            print("")
     # Get the subword Source: https://stackoverflow.com/questions/509211/how-slicing-in-python-works
     user_subword = user_word_as_string[0:user_length_as_int]
 
