@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 # Created By: Jayden Smith
-# Date: April 18, 2025
+# Date: April 16, 2025
 # This program repeats a subword of the selected user word given user input!
 
 
 def main():
+
+    # Introduces the user
     print("Welcome to Jayden's Word Repeater!")
     print("")
 
