@@ -9,6 +9,7 @@ def main():
     print("")
 
     while True:
+        
         # Get the user input
         user_word_as_string = input("What is your word? ")
         user_length_as_string = input(
