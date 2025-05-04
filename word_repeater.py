@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Created By: Jayden Smith
-# Date: April 16, 2025
+# Date: April 18, 2025
 # This program repeats a subword of the selected user word given user input!
 
 
