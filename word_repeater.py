@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Created By: Jayden Smith
 # Date: April 16, 2025
-# This program repeats a subword of the a selected user word given user input!
+# This program repeats a subword of the selected user word given user input!
 
 
 def main():
@@ -27,13 +27,18 @@ def main():
                 print("")
                 print("Subword length must be between 0 and the length of your word!")
                 print("")
+
+            # Checks if user copies is less then zero
             elif user_copies_as_int < 0:
                 print("")
                 print("Number of copies must be positive!")
                 print("")
+
+            # If none of those the code breaks out of the loop
             else:
                 break
 
+        # If it was not a int this happens
         except Exception:
             print("")
             print("Please enter positive numbers for the length and copies!")
